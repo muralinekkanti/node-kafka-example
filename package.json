@@ -1,0 +1,26 @@
+{
+  "name": "node-kafka-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:producer": "node app-producer.js",
+    "start:consumer": "node app-consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muralinekkanti/node-kafka-example.git"
+  },
+  "author": "muralinekkanti@yahoo.com, murali.nekkanti@ibm.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/muralinekkanti/node-kafka-example/issues"
+  },
+  "homepage": "https://github.com/muralinekkanti/node-kafka-example#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "kafkajs": "^2.2.4",
+    "split": "^1.0.1"
+  }
+}
