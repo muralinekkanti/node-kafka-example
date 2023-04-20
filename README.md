@@ -37,7 +37,7 @@ Supply the Kafka instance credentials through the environment variables or creat
  * Step 5:  
  To run the application, follow the below commands:
 	* npm start consumer -- This is a simple app to consume messages from a topic that is configured through the environment variables
-	* npm start producer -- The is a sample app that produces the message to the topic that is configured through the environment variables 
+	* npm start producer -- This is a sample app that produces the message to the topic that is configured through the environment variables 
 
 
 ## Prerequisite
